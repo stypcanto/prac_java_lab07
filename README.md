@@ -59,3 +59,25 @@ La interfaz web permite al usuario ingresar los valores correspondientes y muest
 - Archivo `index.jsp` como página principal.
 - Configuración Maven para construir un archivo WAR desplegable en un servidor Tomcat.
 
+### 🚀 Cómo compilar y desplegar
+
+```bash
+mvn clean package
+docker-compose down
+docker-compose build
+docker-compose up -d
+
+```
+
+Luego, acceder en navegador a:
+```bash
+http://localhost:8080/Lab07/index.jsp
+
+```
+### Vistas del proyecto
+
+- Prueba de calculo desde URL
+![Texto alternativo](Documents/img1.png)
+ d
+- Archivo JSP con diseño CSS en donde se aprecia el calculo
+![Texto alternativo](Documents/img2.png)
